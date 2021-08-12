@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body,
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('/Assets/churikorachobi.png');
+	background-size: cover;
+	background-color: rgb(49, 47, 47);
+	background-blend-mode: overlay;
+}
+.main-1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 35px;
+}
+.main-1 .logo img {
+	width: auto;
+	height: 7vh;
+}
+.main-1 .extra ul {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	list-style: none;
+}
+.main-1 button,
+select {
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+.main-1 button {
+	background: #e50914;
+	border: none;
+}
+select {
+	background: rgba(0, 0, 0, 0.7);
+}
+.main-2 {
+}
+.main-2 ul {
+	list-style: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 30vh;
+	text-align: center;
+	gap: 30px;
+	margin-top: 200px;
+}
+.main-2 ul li {
+	font-size: large;
+	color: white;
+}
+.main-2 ul li h1 {
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 1;
+}
+.main-2 ul li input,
+button {
+	padding: 10px;
+}
+.main-2 .input {
+	display: flex;
+	justify-content: center;
+}
+.main-2 button {
+	background: #dc0611;
+	color: white;
+}
+.main-2 input {
+	width: 500px;
+	height: 73px;
+}
+.main-2 button {
+	width: 200px;
+	font-size: 25px;
+}
